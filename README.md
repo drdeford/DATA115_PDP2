@@ -1,4 +1,4 @@
-# Corned Beef vs. Pickles
+# Corned Beef vs. Pickles (still in progress!)
 
 ## Motivation
 In graduate school, I had a friend from a fairly sheltered background who was convinced that corned beef and pickles could only be eaten together. That is, no one would ever eat either separately. This was shocking to me, since I didn't think I'd ever had them together but did enjoy them both on their own. When the initial pronouncement was handed down, we spent half of the night calling people all over the country trying to discover what collection of backgrounds would lead you to this particular culinary compulsion. As you might expect, the surveying process of "call who ever is currently saved in your phone" did not return particularly generalizable results. 
