@@ -1,4 +1,4 @@
-# Corned Beef vs. Pickles (still in progress!)
+# Corned Beef vs. Pickles 
 
 ## Motivation
 In graduate school, I had a friend from a fairly sheltered background who was convinced that corned beef and pickles could only be eaten together. That is, no one would ever eat either separately. This was shocking to me, since I didn't think I'd ever had them together but did enjoy them both on their own. When the initial pronouncement was handed down, we spent half of the night calling people all over the country trying to discover what collection of backgrounds would lead you to this particular culinary compulsion. As you might expect, the surveying process of "call who ever is currently saved in your phone" did not return particularly generalizable results. 
@@ -10,7 +10,7 @@ This issue then sat on the back burner for years until while helping a student i
 Every year, the National Center for Health Statistics performs a large survey of Americans health and consumption habits called the NHANES. They release anonymized responses to the large collection of questions and measurements that the gather data on. For this project I used the data from 2005. Specifcally, the <a href="https://wwwn.cdc.gov/nchs/nhanes/Search/DataPage.aspx?Component=Demographics&CycleBeginYear=2005"> Demographic Variables</a> and the <a href="https://wwwn.cdc.gov/nchs/nhanes/search/datapage.aspx?Component=Dietary&CycleBeginYear=2005"> raw reponses to the Food Frequency Questionaire</a>. This raw data is presented above. 
 
 ## Processing Steps
-A significant amount of processing was necessary to actually analyze this dataset. To begin with, the raw data provided by the CDC is in a proprieatary format for the SAS language, so the first step was to use the SAS viewer to export the data to a .csv to start the cleaning process. Then, I merged the demographic data with the relevant food consumption columns. In both cases, the given column labels were confusing so I replaced them with interpretable ones. There was also a great deal of excess data that I didn't need for the analysis, so I removed those columns from the dataset. There was demographic information on over 10k subjects but only about 6k filled out the food questionnaire, so I removed the non-participant rows from the data as well. 
+A significant amount of processing was necessary to actually analyze this dataset. To begin with, the raw data provided by the CDC is in a proprietary format for the SAS language, so the first step was to use the SAS viewer to export the data to a .csv to start the cleaning process. Then, I merged the demographic data with the relevant food consumption columns. In both cases, the given column labels were confusing so I replaced them with interpretable ones. There was also a great deal of excess data that I didn't need for the analysis, so I removed those columns from the dataset. There was demographic information on over 10k subjects but only about 6k filled out the food questionnaire, so I removed the non-participant rows from the data as well. 
 
 Each column value was coded according to a chart given in the underlying data source. For example, the values in the `Pickles?` column represented the following pickle eating frequencies. 
 <table>
@@ -36,6 +36,8 @@ Similar tables can be found at <a href = "https://wwwn.cdc.gov/nchs/nhanes/Searc
 To begin with, I made a scatterplot of the various food frequency scores for the two food categories to see if there really were people who liked to eat both equally. This result shows that almost every possible category is filled, falsifying my classmate's hypothesis. 
 
 <img src = "https://raw.githubusercontent.com/drdeford/DATA115_PDP2/main/cbp_scatter.png">
+
+This plot obscures the number of participants who fall into each category (scatterplots are usually a poor choice for categorical data!) so we get a better visualization of the dataset using 
 
 ## Analysis
 
