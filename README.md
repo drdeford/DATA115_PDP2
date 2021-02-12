@@ -37,7 +37,7 @@ To begin with, I made a scatterplot of the various food frequency scores for the
 
 <img src = "https://raw.githubusercontent.com/drdeford/DATA115_PDP2/main/cbp_scatter.png">
 
-This plot obscures the number of participants who fall into each category (scatterplots are usually a poor choice for categorical data!) so we get a better visualization of the dataset using a heatmap of the contingency table, a stacked bar chart, or just looking at the actual values:
+This plot obscures the number of participants who fall into each category (scatterplots are usually a poor choice for categorical data!) so we might get a better sense of the dataset using a heatmap of the contingency table, a stacked bar chart, or just looking at the actual values:
 
 <img src = "https://raw.githubusercontent.com/drdeford/DATA115_PDP2/main/pickle_heat.png">
 
