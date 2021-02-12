@@ -1,4 +1,4 @@
-# Corned Beef vs. Pickles 
+# Corned Beef vs. Pickles (in progress)
 
 ## Motivation
 In graduate school, I had a friend from a fairly sheltered background who was convinced that corned beef and pickles could only be eaten together. That is, no one would ever eat either separately. This was shocking to me, since I didn't think I'd ever had them together but did enjoy them both on their own. When the initial pronouncement was handed down, we spent half of the night calling people all over the country trying to discover what collection of backgrounds would lead you to this particular culinary compulsion. As you might expect, the surveying process of "call who ever is currently saved in your phone" did not return particularly generalizable results. 
@@ -37,7 +37,28 @@ To begin with, I made a scatterplot of the various food frequency scores for the
 
 <img src = "https://raw.githubusercontent.com/drdeford/DATA115_PDP2/main/cbp_scatter.png">
 
-This plot obscures the number of participants who fall into each category (scatterplots are usually a poor choice for categorical data!) so we get a better visualization of the dataset using 
+This plot obscures the number of participants who fall into each category (scatterplots are usually a poor choice for categorical data!) so we get a better visualization of the dataset using a heatmap of the contingency table, a stacked bar chart, or just looking at the actual values:
+
+<img src = "https://raw.githubusercontent.com/drdeford/DATA115_PDP2/main/pickle_heat.png">
+
+<img src = "https://raw.githubusercontent.com/drdeford/DATA115_PDP2/main/Stacked_Bar.png">
+
+
+|x  | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |10 |11 |88 | 99|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | 843| 212|  87 | 96| 160 | 80|  82|  40|  11|  16|   3 |  26|   4|
+| 2 |301 |266 |107 | 75 |101  |47 | 40  |21 |  5  | 7 |  1  |10 |  1 |
+| 3 | 142 |144|  75 | 43 | 51 | 22 | 22 |  9 |  4 |  0|   0 |  9|   0|
+| 4 | 167 | 94|  56 | 78 | 67 | 32 | 35 | 10 |  3 |  0|   1 |  6|   1|
+| 5 | 203 |133|  83 |107 |151 | 63 | 42 | 35 |  8 |  2|   1 |  8|   0|
+| 6 | 108 | 76|  35 | 51 | 79 | 53 | 38 | 16 |  9 |  4|   1 |  3|   0|
+| 7 | 100 | 46|  38 | 50 | 76 | 44 | 53 | 24 |  7 |  4|   2 |  3|   0|
+| 8 |  52 | 29|  25 | 24 | 42 | 32 | 23 | 22 |  4 |  1|   2 |  1|   0|
+| 9 |  24 |  7|  12 |  5 | 13 |  7 | 11 |  9 |  6 |  3|   1 |  2|   0|
+| 10 | 17 |  3|   1 |  5 |  3 | 11 |  6 |  5 |  1 |  3|   1 |  1|   0|
+| 11 |  9 |  2|   2 |  1 |  0 |  1 |  2 |  1 |  1 |  0|   1 |  1|   0|
+| 88 | 17 |  7|  11 |  8 | 12 |  4 |  3 |  3 |  3 |  1|   0 | 18|   4|
+| 99 |  6 |  0|   0 |  1 |  2 |  0 |  2 |  0 |  0 |  0|   0 |   2|   5|
 
 ## Analysis
 
